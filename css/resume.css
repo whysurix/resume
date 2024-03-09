@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.header{
+    padding: 80px;
+    text-align: center;
+    background-color: #e0e0e0;
+    color: black;
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.header h1{
+    font-size: 40px;
+    font-family: "Roboto Slab", serif;
+}
+
+.header p{
+    font-family: "Roboto Slab", serif;
+}
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 35px;
+    font-family: "Roboto Slab", serif;
+}
+
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.AboutMe{
+    text-align: center;
+    
+}
+
+.MoreText{
+    text-align: center;
+
+}
+
+.image{
+    width: 90%;
+    height: 250px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+
+.grey{
+    width: 90%;
+    height: 20px;
+    background-color: #b4b4b4;
+    margin-left: 20px;
+    border-radius: 13px;
+}
+
+.green1{
+    width: 50%;
+    height: 20px;
+    background-color: #b4b4b4;
+    border-radius: 13px;
+    background-color: rgb(103, 158, 135);
+}
+
+.green2{
+    width: 60%;
+    height: 20px;
+    background-color: #b4b4b4;
+    border-radius: 13px;
+    background-color: rgb(103, 158, 135);
+}
+
+.green3{
+    width: 70%;
+    height: 20px;
+    background-color: #b4b4b4;
+    border-radius: 13px;
+    background-color: rgb(103, 158, 135);
+}
+
+.left{
+    background-color: white;
+    height: 750px;
+    width: 420px;
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.right{
+    margin-top: -771px;
+    margin-left: 450px;
+    background-color: white;
+    height: 1200px;
+    width: 700px;
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.image_second{
+    width: 80%;
+    height: 170px;
+    border-radius: 8px;
+    margin-left: 70px;
+}
+
+.footer{
+    background-color: #e0e0e0;
+    text-align: center;
+    height: 100px;
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 35px;
+    font-family: "Roboto Slab", serif;
+}
+
+.footer_text{
+    padding-top: 30px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.TitleHeading{
+    text-align: center;
+}
+
+.green1 p{
+    color: white;
+}
+
+.green2 p{
+    color: white;
+}
+
+.green3 p{
+    color: white;
+}
+
+.contact{
+    background-color: #b4b4b4;
+    margin-top: 50px;
+    width: 60%;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 140px;
+    height: 130px;
+}
+
+.contact_text{
+    padding-top: 1px;
+}
+
+.imageprogram{
+    width: 80%;
+    height: 310px;
+    border-radius: 8px;
+}
+
+.TitleHeading a{
+    color: rgb(103, 158, 135);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Roboto Slab", serif;
+}
+
+.image_third{
+    width: 80%;
+    border-radius: 8px;
+    height: 310px;
+}
+
+.navbar1{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.navbar1 a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+
+.navbar1 a:hover{
+    background-color: #eeeeee;
+    color: black;
+}
+
+.portfolio{
+    font-family: "Montserrat", sans-serif;
+    color: #707070;
+}
+
+.webdesign{
+    font-family: "Montserrat", sans-serif;
+    color: #707070;
+}
+
+.part{
+    font-family: "Roboto Slab", serif;
+}
+
+.AboutMe{
+    font-family: "Roboto Slab", serif;
+}
+
+.green_txt{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
